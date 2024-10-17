@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+*, *::before, *::after {
+  padding: 0;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100%;
+  -ms-grid-columns: 3fr (1fr)[54] 3fr;
+      grid-template: 100%/3fr repeat(54, 1fr) 3fr;
+  overflow: hidden;
+}
+
+.cell {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.cell:nth-child(1):hover ~ .content {
+  --partialString: "i";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(2):hover ~ .content {
+  --partialString: "i ";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(3):hover ~ .content {
+  --partialString: "i l";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(4):hover ~ .content {
+  --partialString: "i lo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(5):hover ~ .content {
+  --partialString: "i lov";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(6):hover ~ .content {
+  --partialString: "i love";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(7):hover ~ .content {
+  --partialString: "i love ";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(8):hover ~ .content {
+  --partialString: "i love y";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(9):hover ~ .content {
+  --partialString: "i love yo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(10):hover ~ .content {
+  --partialString: "i love you";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(11):hover ~ .content {
+  --partialString: "i love you ";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(12):hover ~ .content {
+  --partialString: "i love you s";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(13):hover ~ .content {
+  --partialString: "i love you so";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(14):hover ~ .content {
+  --partialString: "i love you so ";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(15):hover ~ .content {
+  --partialString: "i love you so s";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(16):hover ~ .content {
+  --partialString: "i love you so so";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(17):hover ~ .content {
+  --partialString: "i love you so so ";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(18):hover ~ .content {
+  --partialString: "i love you so so s";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(19):hover ~ .content {
+  --partialString: "i love you so so so";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(20):hover ~ .content {
+  --partialString: "i love you so so soo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(21):hover ~ .content {
+  --partialString: "i love you so so soos";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(22):hover ~ .content {
+  --partialString: "i love you so so sooso";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(23):hover ~ .content {
+  --partialString: "i love you so so soosos";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(24):hover ~ .content {
+  --partialString: "i love you so so soososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(25):hover ~ .content {
+  --partialString: "i love you so so soososos";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(26):hover ~ .content {
+  --partialString: "i love you so so soosososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(27):hover ~ .content {
+  --partialString: "i love you so so soosososos";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(28):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(29):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(30):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(31):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(32):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(33):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(34):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(35):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(36):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(37):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(38):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(39):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(40):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(41):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(42):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(43):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(44):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(45):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(46):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(47):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(48):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(49):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(50):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(51):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(52):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(53):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(54):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(55):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.cell:nth-child(56):hover ~ .content {
+  --partialString: "i love you so so soososososo";
+  --size: 32px;
+  --color: #fff;
+}
+
+.content {
+  --partialString: "Hover over the screen to reveal the text...";
+  --color: #333;
+  --size: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 1em;
+}
+
+.text:after {
+  content: var(--partialString);
+  font-family: 'Fredoka One', cursive;
+  font-size: var(--size);
+  color: var(--color);
+}
+/*# sourceMappingURL=style1.css.map */
